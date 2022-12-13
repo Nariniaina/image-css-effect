@@ -22,11 +22,13 @@ body {
   border-bottom-right-radius: 10px;
   background: url(./img/wallpaper1.jpg) center/cover no-repeat;
   transform: rotate(-45deg) skewY(25deg);
+  background-position: -200px;
   box-shadow: -50px 60px 4px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
 
 .box:hover {
+  background-position: center;
   transform: rotate(-45deg) skewY(25deg) translate(20px, -20px);
   box-shadow: -60px 100px 60px rgba(0, 0, 0, 0.2);
 }
@@ -50,8 +52,8 @@ body {
   width: 100%;
   overflow: hidden;
   border-bottom-right-radius: 10px;
-  height: 10px;
-  background: #0f0f0f;
+  height: 30px;
+  background: #131313;
 }
 
 .right {
@@ -62,7 +64,7 @@ body {
   overflow: hidden;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 5px;
+  width: 10px;
   background: #131313;
 }
 
@@ -73,7 +75,7 @@ body {
   height: 100%;
   overflow: hidden;
   border-top-left-radius: 20px;
-  width: 5px;
+  width: 10px;
   background: #131313;
 }
 
@@ -105,9 +107,9 @@ body {
   content: "";
   position: absolute;
   bottom: -14px;
-  border-top-left-radius: 30%;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 25%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
   left: -21px;
   height: 578px;
   width: 23px;
@@ -119,13 +121,13 @@ body {
 .box::after {
   content: "";
   position: absolute;
-  bottom: -23px;
+  bottom: -24px;
   border-top-right-radius: 48px;
   border-bottom-right-radius: 48px;
-  left: 1px;
-  height: 28px;
+  left: 3px;
+  height: 37px;
   width: 101.5%;
-  background: radial-gradient(#1b1b1b, #131313);
+  background: radial-gradient(#2c2c2c, #131313);
   transform: skewX(-32deg);
   box-sizing: border-box;
   transform-origin: top;
