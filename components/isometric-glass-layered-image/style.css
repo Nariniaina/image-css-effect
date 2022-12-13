@@ -21,8 +21,8 @@ body {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  /* background: url(./img/bg.png) center/cover no-repeat; */
-  background: url(./img/facio-login-screens.png) center/cover no-repeat;
+  /* background: url(./img/wallpaper1.png) center/cover no-repeat; */
+  background: url(./img/wallpaper2.png) center/cover no-repeat;
   transform: rotate(-45deg) skewY(25deg);
   /* background-position: -200px; */
   /* box-shadow: -30px 40px 4px rgba(0, 0, 0, 0.2); */
